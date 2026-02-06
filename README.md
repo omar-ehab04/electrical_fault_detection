@@ -24,6 +24,9 @@ The "garbage in, garbage out" rule is critical in power systems. This project im
 * **Normalization:** Implementation of `StandardScaler` to handle the high variance between fault currents () and system voltages (), ensuring gradient stability during backpropagation.
 * **Ground-Truth Logic:** Incorporation of binary phase/ground indicators to assist the model in learning the mathematical relationship between grounded and ungrounded faults.
 
+* Feature Engineering & Dimensionality:
+To bridge the gap between electrical transients and machine learning, I engineered a 6-feature input vector consisting of synchronized phase currents ($I_{abc}$) and voltages ($V_{abc}$). By incorporating binary ground-leakage indicators (G) as a supplemental feature, I provided the model with the necessary logical context to distinguish between grounded and ungrounded faults—a task that typically requires complex protective relay logic.
+
 #### 2. Neural Network Implementation
 
 The classifier is built using a Multi-Layer Perceptron (MLP) architecture in **PyTorch**:

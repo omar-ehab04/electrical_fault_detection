@@ -1,10 +1,3 @@
-# electrical_fault_detection
-For a GitHub repository, you want a balance of high-level overview, technical depth, and clear instructions. Since your project is split into data processing and model implementation, a structured `README.md` is essential.
-
-Here is a comprehensive GitHub description you can copy and paste:
-
----
-
 # Electrical Fault Detection & Classification using Deep Learning
 
 ### 📌 Project Overview

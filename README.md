@@ -39,7 +39,7 @@ The model achieves **100% accuracy** on the test dataset, effectively mapping ev
 
 | Fault Type | Precision | Recall | F1-Score |
 | --- | --- | --- | --- |
-| Healthy | 1.00 | 1.00 | 1.00 |
+| no fault | 1.00 | 1.00 | 1.00 |
 | LG / LLG | 1.00 | 1.00 | 1.00 |
 | LLL / LLLG | 1.00 | 1.00 | 1.00 |
 
